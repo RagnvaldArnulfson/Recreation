@@ -4,12 +4,10 @@ m=[r.randint(0,99999) for i in range(10**2)]
 
 def quicksort(l):
    n=len(l)
-   if n==0:
-      return []
+   if n<1:
+      return l
    p=l[0]
-   l1=[e for e in l[1:] if e<p]
-   l2=[e for e in l[1:] if e>=p]
-   return quicksort(l1)+[p]+quicksort(l2)
+   return quicksort([e for e in l[1:] if e<p])+[p]+quicksort([e for e in l[1:] if e>=p])
 
 def bubblesort(l):
    i=0
