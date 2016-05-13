@@ -1,3 +1,5 @@
+#Pas efficace, mais syntaxe ligne 55 rigolote
+
 instruction = ".+[.+]"
 
 tape = [0]*40
