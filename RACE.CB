@@ -1,0 +1,15 @@
+5->Dim List 1
+6->C
+2->A~B
+While 3>Abs (B-List 1[C-5
+""
+A->List 1[C
+A+RanBin#(-1,1
+Ans+Not Ans-(Ans=16->A
+Getkey-27
+B+Not Ans-(Ans>0->B
+Locate B+3,1,"O
+Locate A,7,"8     8
+Isz C
+WhileEnd
+C
