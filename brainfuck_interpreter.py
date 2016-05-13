@@ -1,4 +1,4 @@
-#Pas efficace, mais syntaxe ligne 55 rigolote
+#Pas efficace, mais syntaxe ligne 55/56 rigolote
 
 instruction = ".+[.+]"
 
